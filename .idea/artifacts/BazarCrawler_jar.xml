@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BazarCrawler:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BazarCrawler_jar</output-path>
+    <root id="archive" name="BazarCrawler.jar">
+      <element id="module-output" name="BazarCrawler" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup-1.11.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

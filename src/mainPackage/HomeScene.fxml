@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.Controller">
+   <bottom>
+      <Label text="Copyright © Bazar Crawler 2017" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Region prefHeight="682.0" prefWidth="1080.0" />
+            <HBox prefHeight="58.0" prefWidth="1080.0">
+               <children>
+                  <Region prefHeight="104.0" prefWidth="331.0" />
+                  <Label prefHeight="126.0" prefWidth="425.0" text="Bazar Crawler">
+                     <font>
+                        <Font size="71.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Region prefHeight="59.0" prefWidth="1080.0" />
+            <HBox prefHeight="46.0" prefWidth="1080.0">
+               <children>
+                  <Region prefHeight="46.0" prefWidth="281.0" />
+                  <TextField fx:id="SearchBox" alignment="CENTER" onAction="#SearchButtonClicked" prefHeight="25.0" prefWidth="514.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Region prefHeight="100.0" prefWidth="434.0" />
+                  <Button mnemonicParsing="false" onAction="#SearchButtonClicked" prefHeight="57.0" prefWidth="210.0" text="Search" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
